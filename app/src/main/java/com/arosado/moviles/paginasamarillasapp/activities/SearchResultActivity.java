@@ -30,8 +30,6 @@ public class SearchResultActivity extends AppCompatActivity {
         this.category = getIntent().getExtras().getString("category");
         List<Company> companies = CompanyRepository.filterCompaniesByCategory(category);
 
-        //List<Company> companies = CompanyRepository.getCompanies();
-
         CompaniesAdapter adapter = new CompaniesAdapter(this);
         adapter.setCompanies(companies);
 

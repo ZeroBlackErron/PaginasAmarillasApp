@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void search(View view) {
-        String category = categoryEditText.getText().toString();
+        String category = categoryEditText.getText().toString().trim();
 
         if(!category.isEmpty()) {
             Intent intent = new Intent(this, SearchResultActivity.class);

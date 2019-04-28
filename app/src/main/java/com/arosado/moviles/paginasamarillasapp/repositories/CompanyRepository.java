@@ -67,36 +67,36 @@ public class CompanyRepository {
         ));
         companies.add(new Company(
                 600,
-                "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Supermercados",
+                "Tottus Pachacutec",
+                "Av Pachacutec 65, Distrito de Lima 15816",
+                "5133355",
+                "contacto@tottus.com.pe",
+                "https://www.tottus.com.pe/tottus/home",
+                "ic_tottus",
+                "Es la cadena de supermercados chilenos perteneciente al grupo Falabella, con presencia en Chile con 60 locales y Perú con 70 locales."
         ));
         companies.add(new Company(
                 700,
-                "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Educación",
+                "Británico Surco",
+                "Av. Caminos del Inca 3581, Santiago de Surco 15039",
+                "6153434",
+                "informes@britanico.edu.pe",
+                "https://www.britanico.edu.pe/",
+                "ic_britanico",
+                "Conocida también como el \"BRITÁNICO\", es una asociación cultural binacional con fines de lucro que brinda la enseñanza del idioma inglés británico y que busca la promoción y el intercambio cultural entre el Reino Unido y el Perú."
         ));
         companies.add(new Company(
                 800,
-                "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Retail",
+                "Saga Falabella",
+                "Av. Paseo de la República 3220 - San Isidro - Lima",
+                "6161000",
+                "contactenos@sagafalabella.com.pe",
+                "https://www.falabella.com.pe/falabella-pe/",
+                "ic_saga_falabella",
+                "Es una tienda por departamentos chilena fundada en 1889 por una familia italiana radicada en Chile. Falabella cuenta con operaciones en Chile, Argentina, Perú, Colombia y Brasil."
         ));
         companies.add(new Company(
                 900,
@@ -138,7 +138,7 @@ public class CompanyRepository {
     public static List<Company> filterCompaniesByCategory(String category) {
         companies_category = new ArrayList<>();
         for (Company company : companies) {
-            if(company.getCategory().equals(category)) {
+            if(company.getCategory().equalsIgnoreCase(category)) {
                 companies_category.add(company);
             }
         }
