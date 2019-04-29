@@ -6,4 +6,7 @@
     <string name="detail_category_tools">Categoría de la compañía</string>
     <string name="detail_info_tools">Información sobre la compañía</string>
     <string name="detail_info_text">Información</string>
+    <string name="main_search_button">Buscar</string>
+    <string name="main_category_input">Escribe una categoría</string>
+    <string name="main_category_empty">Ingrese una categoría</string>
 </resources>

@@ -1,10 +1,10 @@
 package com.arosado.moviles.paginasamarillasapp.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.arosado.moviles.paginasamarillasapp.R;
 import com.arosado.moviles.paginasamarillasapp.adapters.CompaniesAdapter;

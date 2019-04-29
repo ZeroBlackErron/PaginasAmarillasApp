@@ -2,11 +2,12 @@ package com.arosado.moviles.paginasamarillasapp.activities;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.arosado.moviles.paginasamarillasapp.R;
 import com.arosado.moviles.paginasamarillasapp.models.Company;
