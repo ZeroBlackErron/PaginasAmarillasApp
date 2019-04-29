@@ -1,6 +1,8 @@
 package com.arosado.moviles.paginasamarillasapp.activities;
 
 import android.os.Bundle;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -16,6 +18,7 @@ import java.util.List;
 public class SearchResultActivity extends AppCompatActivity {
 
     private String category;
+    private TextView resultText;
     private RecyclerView recyclerView;
 
     @Override
@@ -23,6 +26,7 @@ public class SearchResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_result);
 
+        resultText = findViewById(R.id.results_text);
         recyclerView = findViewById(R.id.publicationList);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -30,9 +34,17 @@ public class SearchResultActivity extends AppCompatActivity {
         this.category = getIntent().getExtras().getString("category");
         List<Company> companies = CompanyRepository.filterCompaniesByCategory(category);
 
+
         CompaniesAdapter adapter = new CompaniesAdapter(this);
         adapter.setCompanies(companies);
 
-        recyclerView.setAdapter(adapter);
+        int count = adapter.getItemCount();
+        if(count == 0){
+            resultText.setText("No se encontraron resultados para " + category);
+        }else {
+            resultText.setText("Resultados para " + category);
+            recyclerView.setAdapter(adapter);
+        }
+
     }
 }

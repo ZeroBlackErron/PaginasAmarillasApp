@@ -9,4 +9,9 @@
     <string name="main_search_button">Buscar</string>
     <string name="main_category_input">Escribe una categoría</string>
     <string name="main_category_empty">Ingrese una categoría</string>
+    <string name="detail_web_button">Web</string>
+    <string name="detail_email_button">E-mail</string>
+    <string name="detail_sms_button">SMS</string>
+    <string name="detail_share_button">Compartir</string>
+    <string name="detail_call_button">Llamar</string>
 </resources>
