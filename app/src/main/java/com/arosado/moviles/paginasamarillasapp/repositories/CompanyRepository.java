@@ -12,58 +12,58 @@ public class CompanyRepository {
     static {
         companies.add(new Company(
                 100,
-                "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Hoteles",
+                "Hotel Britania",
+                "Avenida San Borja Sur 653 ",
+                "2033900",
+                "reservassanborja@hbritania.com",
+                "http://www.hbritania.com",
+                "ic_hotel_britania",
+                "Un hotel exclusivo como Usted: Elegancia, confort y modernidad en Miraflores y San Borja."
         ));
         companies.add(new Company(
                 200,
-                "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Hoteles",
+                "Del prado Hotel",
+                "Av.Pablo Carriquiry 298, San Isidro.",
+                "4411700",
+                "reservas@delpradohotel.com",
+                "http://www.delpradohotel.com ",
+                "ic_del_prado_hotel",
+                "Ubicado en el distrito de San Isidro, restaurante, business center, sala adaptable para eventos."
         ));
         companies.add(new Company(
                 300,
-                "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Farmacias",
+                "Fasur Peru",
+                "Avenida Goyeneche 203  Cercado de Arequipa",
+                "221676",
+                "administracion@farmaciafasurperu.com",
+                "http://www.farmaciafasurperu.com ",
+                "ic_fasur_peru",
+                "Somos la única cadena farmacéutica 100% arequipeña."
         ));
         companies.add(new Company(
                 400,
                 "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Arco Iris del Norte",
+                "Avenida Universitaria 5356  Urb. Carabayllo ",
+                "5251894",
+                "chefsagitario@hotmail.com",
+                "http://www.restaurantarcoirisdelnorte.com ",
+                "ic_arco_iris_del_norte",
+                "Especialidad en pescados y mariscos."
         ));
         companies.add(new Company(
                 500,
                 "Restaurantes",
-                "La Casa del Tacu Tacu",
-                "Jr. Pelotillehue 53-48 Int 84",
-                "012242625",
-                "informes@lacasadeltacutacu.com",
-                "www.lacasadeltacutacu.com",
-                "ic_company1",
-                "Déjese cautivar por el mejor sabor criollo…"
+                "Agueda Restaurant",
+                "Avenida Collasuyo - Mz. A Lt. 1 - Cusco",
+                "84224777",
+                "info@agueda.com",
+                "http://www.agueda.pe/",
+                "ic_agueda",
+                "La Mejor Carne a la parrilla al Carbón del Cusco"
         ));
         companies.add(new Company(
                 600,

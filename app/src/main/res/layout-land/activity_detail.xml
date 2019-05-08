@@ -120,69 +120,76 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true">
 
-                <LinearLayout
+                <ScrollView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="12dp"
                     android:layout_centerInParent="true">
 
-                    <com.google.android.material.button.MaterialButton
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:onClick="visitWebsite"
-                        android:text="@string/detail_web_button"
-                        android:textColor="@color/primary"
-                        app:iconTint="@color/primary"
-                        app:icon="@drawable/ic_website_detail"
-                        app:strokeColor="@color/primary" />
+                        android:orientation="vertical"
+                        android:padding="12dp"
+                        android:layout_centerInParent="true">
 
-                    <com.google.android.material.button.MaterialButton
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/detail_email_button"
-                        android:textColor="@color/primary"
-                        app:strokeColor="@color/primary"
-                        app:iconTint="@color/primary"
-                        app:icon="@drawable/ic_email_detail"
-                        android:onClick="sendEmail"/>
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="visitWebsite"
+                            android:text="@string/detail_web_button"
+                            android:textColor="@color/primary"
+                            app:iconTint="@color/primary"
+                            app:icon="@drawable/ic_website_detail"
+                            app:strokeColor="@color/primary" />
 
-                    <com.google.android.material.button.MaterialButton
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/detail_sms_button"
-                        android:textColor="@color/primary"
-                        app:strokeColor="@color/primary"
-                        app:iconTint="@color/primary"
-                        app:icon="@drawable/ic_sms_detail"
-                        android:onClick="sendSMS"/>
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_email_button"
+                            android:textColor="@color/primary"
+                            app:strokeColor="@color/primary"
+                            app:iconTint="@color/primary"
+                            app:icon="@drawable/ic_email_detail"
+                            android:onClick="sendEmail"/>
 
-                    <com.google.android.material.button.MaterialButton
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/detail_share_button"
-                        android:textColor="@color/primary"
-                        app:strokeColor="@color/primary"
-                        app:iconTint="@color/primary"
-                        app:icon="@drawable/ic_share_detail"
-                        android:onClick="shareContent"/>
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_sms_button"
+                            android:textColor="@color/primary"
+                            app:strokeColor="@color/primary"
+                            app:iconTint="@color/primary"
+                            app:icon="@drawable/ic_sms_detail"
+                            android:onClick="sendSMS"/>
 
-                    <com.google.android.material.button.MaterialButton
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/detail_call_button"
-                        android:textColor="@color/primary"
-                        app:strokeColor="@color/primary"
-                        app:iconTint="@color/primary"
-                        app:icon="@drawable/ic_call_detail"
-                        android:onClick="callTo"/>
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_share_button"
+                            android:textColor="@color/primary"
+                            app:strokeColor="@color/primary"
+                            app:iconTint="@color/primary"
+                            app:icon="@drawable/ic_share_detail"
+                            android:onClick="shareContent"/>
 
-                </LinearLayout>
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_call_button"
+                            android:textColor="@color/primary"
+                            app:strokeColor="@color/primary"
+                            app:iconTint="@color/primary"
+                            app:icon="@drawable/ic_call_detail"
+                            android:onClick="callTo"/>
+
+                    </LinearLayout>
+
+                </ScrollView>
 
             </RelativeLayout>
 
